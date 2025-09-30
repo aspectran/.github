@@ -1,6 +1,5 @@
 # Aspectran: A Comprehensive Java Application Framework
 
-
 ![Aspectran logo](https://aspectran.com/images/header_aspectran.png)
 
 <p align="center">
@@ -39,17 +38,21 @@ The Aspectran organization hosts a variety of projects, including the core frame
 
 - **[aspectran/aspectran](https://github.com/aspectran/aspectran)**: The main repository for the Aspectran framework. It contains the core modules for building applications.
 
-### Demonstration & Enterprise Applications
+### Starter Projects
 
-- **[aspectran/aspectow](https://github.com/aspectran/aspectow)**: A comprehensive, enterprise-grade web application built with Aspectran, showcasing its capabilities for large-scale systems.
-- **[aspectran/aspectow-appmon](https://github.com/aspectran/aspectow-appmon)**: An application monitoring tool designed for Aspectow, providing real-time insights into application performance.
-- **[aspectran/aspectow-demo](https://github.com/aspectran/aspectow-demo)**: A demo application for Aspectow, illustrating its features and usage.
+These projects provide only the basic environment and are intended to be used as a skeleton for starting a new project.
 
-### Sample Applications
+*   [Aspectow](https://github.com/aspectran/aspectow): The default starter for the Aspectow Enterprise Edition.
+*   [Aspectow Light](https://github.com/aspectran/aspectow-light): The default starter for the Aspectow Light Edition.
+*   [Aspectow Jetty](https://github.com/aspectran/aspectow-jetty): The default starter for the Aspectow Jetty Edition.
 
-- **[aspectran/jpetstore](https://github.com/aspectran/jpetstore)**: A full-featured web application based on the classic JPetStore, demonstrating how to build e-commerce sites with Aspectran.
-- **[aspectran/petclinic](https://github.com/aspectran/petclinic)**: A port of the popular Spring PetClinic sample application, adapted to run on Aspectran.
-- **[aspectran/skylark](https://github.com/aspectran/skylark)**: A web application showcasing various features of Aspectran.
+### Sample Projects
+
+These are complete, runnable projects that demonstrate how to use specific features or libraries.
+
+*   [ToDo Webapp](https://github.com/aspectran/aspectow-todo-webapp): A simple ToDo example application based on the Aspectow Enterprise Edition.
+*   [JPetStore Webapp](https://github.com/aspectran/aspectran-jpetstore): A database integration example application using MyBatis.
+*   [Petclinic Webapp](https://github.com/aspectran/aspectran-petclinic): A web application example using JPA and Thymeleaf.
 
 ### Website
 
@@ -72,6 +75,7 @@ We welcome contributions from the community! Whether you want to report a bug, s
 ## Stay Connected
 
 - **Website**: [aspectran.com](https://aspectran.com)
+- **Demo**: [public.aspectran.com](https://public.aspectran.com)
 - **Blog**: [aspectran.github.io/blog/](https://aspectran.github.io/blog/)
 
 ---
