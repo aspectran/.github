@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://aspectran.github.io/en/docs/getting-started/">Getting Started</a>
+  <a href="https://aspectran.com/en/aspectran/getting-started/">Getting Started</a>
   |
   <a href="https://aspectran.github.io/en/docs/">Documentation</a>
   |
