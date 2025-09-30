@@ -25,6 +25,7 @@ We welcome contributions from the community! Whether you want to report a bug, s
 ## Stay Connected
 
 - **Website**: [aspectran.com](https://aspectran.com)
+- **Demo**: [public.aspectran.com](https://public.aspectran.com)
 - **Blog**: [aspectran.github.io/blog/](https://aspectran.github.io/blog/)
 
 ---
