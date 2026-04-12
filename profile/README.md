@@ -8,17 +8,6 @@ Aspectran is a lightweight, high-performance framework based on the JVM, designe
 
 At its core, Aspectran emphasizes an intuitive **POJO-centric programming model**. By leveraging powerful enterprise patterns such as **Inversion of Control (IoC)**, **Dependency Injection (DI)**, and **Aspect-Oriented Programming (AOP)**, it maximizes code modularity and reusability. A key strength is its **Adapter Pattern for environment abstraction**, which allows the same business logic to run without modification across various runtimes—whether it's a web server, a command-line shell, or a background daemon.
 
-## Core Features
-
-- **POJO-Based Development**: Focus on business logic using plain old Java objects without being tied to complex framework internal structures.
-- **Advanced AOP Engine**: Modularize cross-cutting concerns like logging and security with a high-performance proxy mechanism and intelligent optimizations.
-- **Adapter-Driven Architecture**: Write once, run anywhere (Web, Shell, Daemon, or Embedded) thanks to a consistent environment abstraction layer.
-- **AsEL (Aspectran Expression Language)**: A powerful expression language for dynamic configuration, supporting nested property navigation and method calls.
-- **Hint Mechanism**: Decouple modules using method-level "sticky notes" to convey execution intents without creating direct dependencies.
-- **Dynamic Hot-Reloading**: Instantly reflect changes in configurations or classes without restarting the JVM using the unique `SiblingClassLoader` mechanism.
-- **Enterprise-Grade Session & Scheduling**: Pluggable session storage (Redis/Lettuce) and a built-in Quartz-based scheduler that can execute **Translets** as jobs.
-- **Optimized RESTful Support**: Concise configuration for HTTP method-based request processing with intelligent search priority for precise mapping.
-
 ## Ecosystem
 
 The Aspectran organization provides a modular suite of projects to suit various application needs:
@@ -38,8 +27,7 @@ The Aspectran organization provides a modular suite of projects to suit various 
 
 ## Quick Start
 
-The fastest way to experience Aspectran is by following our **[Getting Started with Aspectran](https://aspectran.com/en/docs/guides/aspectran-getting-started/)**.
-You'll be guided through setting up your development environment and creating your first application.
+The fastest way to experience Aspectran is by following our **[Getting Started with Aspectran](https://aspectran.com/en/docs/guides/aspectran-getting-started/)**. You'll be guided through setting up your development environment and creating your first application.
 
 For deep technical insights, please refer to the full **[Documentation Index](https://aspectran.com/en/docs/)**.
 
@@ -47,7 +35,9 @@ For deep technical insights, please refer to the full **[Documentation Index](ht
 
 - **Official Website**: [aspectran.com](https://aspectran.com)
 - **Interactive Demo**: [public.aspectran.com](https://public.aspectran.com)
-- **Official Blog**: [aspectran.github.io/blog/](https://aspectran.com/blog/)
+- **Official Blog**: [aspectran.com/blog/](https://aspectran.com/blog/)
 - **API Docs (Javadoc)**: [javadoc.io/doc/com.aspectran/aspectran-all](https://javadoc.io/doc/com.aspectran/aspectran-all)
+
+---
 
 Thank you for your interest in Aspectran! We are excited to see the amazing applications you'll build.
