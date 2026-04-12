@@ -1,33 +1,53 @@
-![Aspectran: A Comprehensive Java Application Framework](https://aspectran.com/images/header_aspectran.png)
+# Aspectran: A Concise and Powerful Java Application Framework
 
-<p align="center">
-  <strong>A concise and powerful framework for building scalable and maintainable Java applications.</strong>
-</p>
+![Aspectran logo](https://aspectran.com/images/header_aspectran.png)
 
-<p align="center">
-  <a href="https://aspectran.com/en/aspectran/getting-started/">Getting Started</a>
-  |
-  <a href="https://aspectran.github.io/en/docs/">Documentation</a>
-  |
-  <a href="https://github.com/aspectran/aspectran/discussions">Community</a>
-</p>
+## Overview
 
----
+Aspectran is a lightweight, high-performance framework based on the JVM, designed to efficiently build everything from simple command-line tools to complex enterprise web services. It boasts fast startup times and a low memory footprint through minimal dependencies and optimized resource usage, making it ideal for microservices and cloud-native environments.
 
-## How to Contribute
+At its core, Aspectran emphasizes an intuitive **POJO-centric programming model**. By leveraging powerful enterprise patterns such as **Inversion of Control (IoC)**, **Dependency Injection (DI)**, and **Aspect-Oriented Programming (AOP)**, it maximizes code modularity and reusability. A key strength is its **Adapter Pattern for environment abstraction**, which allows the same business logic to run without modification across various runtimes—whether it's a web server, a command-line shell, or a background daemon.
 
-We welcome contributions from the community! Whether you want to report a bug, suggest a new feature, or submit a pull request, we encourage you to get involved.
+## Core Features
 
-- **Discussions**: Join our [community discussions](https://github.com/aspectran/aspectran/discussions) to ask questions and share ideas.
-- **Issues**: Report bugs or request features by opening an [issue](https://github.com/aspectran/aspectran/issues).
-- **Pull Requests**: We are happy to accept pull requests. Please read our contributing guidelines (if available) before submitting.
+- **POJO-Based Development**: Focus on business logic using plain old Java objects without being tied to complex framework internal structures.
+- **Advanced AOP Engine**: Modularize cross-cutting concerns like logging and security with a high-performance proxy mechanism and intelligent optimizations.
+- **Adapter-Driven Architecture**: Write once, run anywhere (Web, Shell, Daemon, or Embedded) thanks to a consistent environment abstraction layer.
+- **AsEL (Aspectran Expression Language)**: A powerful expression language for dynamic configuration, supporting nested property navigation and method calls.
+- **Hint Mechanism**: Decouple modules using method-level "sticky notes" to convey execution intents without creating direct dependencies.
+- **Dynamic Hot-Reloading**: Instantly reflect changes in configurations or classes without restarting the JVM using the unique `SiblingClassLoader` mechanism.
+- **Enterprise-Grade Session & Scheduling**: Pluggable session storage (Redis/Lettuce) and a built-in Quartz-based scheduler that can execute **Translets** as jobs.
+- **Optimized RESTful Support**: Concise configuration for HTTP method-based request processing with intelligent search priority for precise mapping.
 
-## Stay Connected
+## Ecosystem
 
-- **Website**: [aspectran.com](https://aspectran.com)
-- **Demo**: [public.aspectran.com](https://public.aspectran.com)
-- **Blog**: [aspectran.com/blog/](https://aspectran.com/blog/)
+The Aspectran organization provides a modular suite of projects to suit various application needs:
 
----
+### Core Framework
+- **[aspectran/aspectran](https://github.com/aspectran/aspectran)**: The primary repository containing the core IoC, AOP, and Activity-based request processing engine.
 
-Thank you for your interest in Aspectran! We are excited to see what you build with it.
+### Starter Projects (Skeletons)
+- **[Aspectow](https://github.com/aspectran/aspectow)**: Full-featured Enterprise Edition starter.
+- **[Aspectow Light](https://github.com/aspectran/aspectow-light)**: Lightweight edition for fast, minimal setups.
+- **[Aspectow Jetty](https://github.com/aspectran/aspectow-jetty)**: Specifically pre-configured for the Jetty embedded server.
+
+### Sample Applications
+- **[ToDo Webapp](https://github.com/aspectran/aspectow-todo-webapp)**: Standard MVC web application example.
+- **[JPetStore](https://github.com/aspectran/aspectran-jpetstore)**: Database integration demo using MyBatis.
+- **[Petclinic](https://github.com/aspectran/aspectran-petclinic)**: Modern web app example using JPA and Thymeleaf.
+
+## Quick Start
+
+The fastest way to experience Aspectran is by following our **[Getting Started with Aspectran](https://aspectran.com/en/docs/guides/aspectran-getting-started/)**.
+You'll be guided through setting up your development environment and creating your first application.
+
+For deep technical insights, please refer to the full **[Documentation Index](https://aspectran.com/en/docs/)**.
+
+## Resources
+
+- **Official Website**: [aspectran.com](https://aspectran.com)
+- **Interactive Demo**: [public.aspectran.com](https://public.aspectran.com)
+- **Official Blog**: [aspectran.github.io/blog/](https://aspectran.com/blog/)
+- **API Docs (Javadoc)**: [javadoc.io/doc/com.aspectran/aspectran-all](https://javadoc.io/doc/com.aspectran/aspectran-all)
+
+Thank you for your interest in Aspectran! We are excited to see the amazing applications you'll build.
