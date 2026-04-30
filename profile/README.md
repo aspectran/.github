@@ -16,7 +16,7 @@ The Aspectran organization provides a modular suite of projects to suit various 
 - **[aspectran/aspectran](https://github.com/aspectran/aspectran)**: The primary repository containing the core IoC, AOP, and Activity-based request processing engine.
 
 ### Starter Projects (Skeletons)
-- **[Aspectow](https://github.com/aspectran/aspectow)**: Full-featured Enterprise Edition starter.
+- **[Aspectow Enterprise](https://github.com/aspectran/aspectow-enterprise)**: Full-featured Enterprise Edition starter.
 - **[Aspectow Light](https://github.com/aspectran/aspectow-light)**: Lightweight edition for fast, minimal setups.
 - **[Aspectow Jetty](https://github.com/aspectran/aspectow-jetty)**: Specifically pre-configured for the Jetty embedded server.
 
